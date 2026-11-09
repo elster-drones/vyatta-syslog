@@ -2,7 +2,7 @@ Source: vyatta-syslog
 Section: contrib/net
 Priority: optional
 Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends:
+Build-Depends: libc6-dev,
  config-package-dev,
  cpio,
  debhelper (>= 9.20160403~) | dh-autoreconf,
